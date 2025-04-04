@@ -27,4 +27,4 @@ sed -i "s/username = /username = $user/" "$DMRC"
 sed -i "s/pwd = /pwd = $pass/" "$DMRC"
 
 echo "All set! Your .dmrc is ready at $DMRC"
-echo "Run 'tui' to start the display manager"
+echo "Run 'dm' to start the display manager"
