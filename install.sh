@@ -16,6 +16,7 @@ cmd = am start --user 0 -n com.termux.x11/com.termux.x11.MainActivity > /dev/nul
 EOL
 
 # ask for username and password
+clear
 echo "Let’s set up your login stuff"
 read -p "What’s your username? " user
 read -s -p "What’s your password? " pass # -s hides the input
